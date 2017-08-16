@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,6 +65,24 @@
             </objects>
             <point key="canvasLocation" x="1837" y="-900"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="xOe-O8-AJl">
+            <objects>
+                <viewController id="BOp-E3-tHc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3lr-rl-8E1"/>
+                        <viewControllerLayoutGuide type="bottom" id="vvk-Ar-LEG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BgP-AE-Mbo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="goh-tx-1so" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1481" y="-123"/>
+        </scene>
         <!--ChecklistDetailViewController-->
         <scene sceneID="nJN-xN-4S3">
             <objects>
@@ -71,22 +90,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XLL-BN-7Lx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2583" y="-900"/>
-        </scene>
-        <!--AddChecklistItemNavigationController-->
-        <scene sceneID="uzt-lI-ig2">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="AddChecklistItemNavigationController" storyboardName="ChecklistDetail" referencedIdentifier="AddChecklistItemNavigationController" id="zd7-tt-y6d" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7sL-Ue-6Kl" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2583" y="-168"/>
-        </scene>
-        <!--AddChecklistItemViewController-->
-        <scene sceneID="OqO-fo-Y3J">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="AddChecklistItemViewController" storyboardName="ChecklistDetail" referencedIdentifier="AddChecklistItemViewController" id="Kpc-xd-cRc" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="y9Y-7O-pX6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3343" y="-168"/>
         </scene>
     </scenes>
     <resources>
